@@ -1,0 +1,59 @@
+# -------------------------
+# Backend (FastAPI + Auth)
+# -------------------------
+fastapi
+uvicorn[all]
+python-dotenv
+python-multipart
+pydantic
+httpx
+supabase
+pytest
+pytest-asyncio
+python-jose[cryptography]
+passlib[bcrypt]
+
+# -------------------------
+# Core Streamlit + Visualization
+# -------------------------
+streamlit
+streamlit-plotly-events
+plotly
+vtk
+
+# -------------------------
+# DICOM + Image Processing
+# -------------------------
+pydicom
+numpy
+scipy
+scikit-image
+opencv-python
+Pillow
+
+# -------------------------
+# AI/ML Libraries
+# -------------------------
+torch
+torchvision
+transformers
+onnxruntime
+
+# -------------------------
+# Utilities
+# -------------------------
+tqdm
+requests
+pathlib2
+dicom-numpy
+pynetdicom
+dicomweb-client
+deid
+aiofiles
+
+# -------------------------
+# Additional ML/Data Science
+# -------------------------
+faiss-cpu
+psutil
+google-cloud-storage
